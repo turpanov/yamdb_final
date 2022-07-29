@@ -3,8 +3,8 @@ import random
 from statistics import mean
 
 from django.core.mail import EmailMessage
-
 from reviews.models import Review
+
 from api_yamdb.settings import ADMIN_EMAIL
 
 

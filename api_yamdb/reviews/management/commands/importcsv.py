@@ -3,9 +3,9 @@ import os
 
 from django.core.management.base import BaseCommand
 from django.db.models import Avg, IntegerField
+from reviews.models import (Category, Comment, Genre, GenreTitle, Rating,
+                            Review, Title, Users)
 
-from reviews.models import (Category, Comment, Genre, GenreTitle,
-                            Rating, Review, Title, Users)
 from api_yamdb.settings import BASE_DIR
 
 path_to_data = 'static/data/'

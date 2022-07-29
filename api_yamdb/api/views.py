@@ -7,12 +7,11 @@ from rest_framework.pagination import (LimitOffsetPagination,
                                        PageNumberPagination)
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-
+from reviews.models import (Category, Comment, Genre, Rating, Review, Title,
+                            Users)
 
 from .filter import TitleFilter
 from .mixins import CreateListDestroyViewSet, CreateViewSet
-from reviews.models import (Category, Comment, Genre, Rating, Review, Title,
-                            Users)
 from .permissions import AdminOrReadOnly, AuthorModerAdminOrReadOnly, IsAdmin
 from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, ReviewSerializer, TitlesSerializer,
