@@ -1,6 +1,11 @@
 ### Проект Yamdb:
 Baсkend и api для сбора произведений и отзывов. API позволяет получить всю основную информацию социальной сети. Часть frontend-а отсутствует.
+
 ![workflow](https://github.com/turpanov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+### Ссылка на развернутый проект Yamdb:
+
+`http://yatube-turpanov.hopto.org/redoc`
 
 ### Как запустить проект:
 
